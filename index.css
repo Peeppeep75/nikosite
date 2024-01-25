@@ -1,6 +1,36 @@
 #headline,
 h2 {
-  color: orange;
+  color: rgb(255, 136, 215);
+}
+
+#headline,
+h1 {
+  border-bottom: 2px solid #ff96cb;
+  padding-bottom: 10px;
+}
+
+.gnav-navi-1 {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.gnav-navi-1 li {
+  margin-right: 10px;
+}
+
+.gnav-navi-1 a {
+  display: block;
+  padding: 10px;
+  background-color: #ff69b4;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.gnav-navi-1 a:hover {
+  background-color: #ff8c00;
+  color: white;
 }
 
 button {
@@ -8,11 +38,21 @@ button {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 10px;
+  padding: 12px;
+  border-radius: 20px;
 }
 
 button img {
   width: 24px;
   height: 24px;
   border-radius: 50%;
+}
+
+button {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
 }
