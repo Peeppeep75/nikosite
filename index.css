@@ -1,3 +1,31 @@
+@charset "utf-8";
+
+body {
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  font-size: 1.4em;
+  color: #383838;
+  font-family: "Lato", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium",
+    "YuGothic", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ",
+    "Meiryo", "ＭＳＰゴシック", "MS PGothic", sans-serif;
+  line-height: 1.6;
+}
+
+body {
+  background-image: url("animals.jpg");
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.gnav-navi-1 {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
 #headline,
 h2 {
   color: rgb(255, 136, 215);
@@ -9,6 +37,10 @@ h1 {
   padding-bottom: 10px;
 }
 
+p {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
 .gnav-navi-1 {
   list-style-type: none;
   padding: 0;
@@ -16,11 +48,11 @@ h1 {
 }
 
 .gnav-navi-1 li {
-  margin-right: 10px;
+  margin-right: 10 px;
 }
 
 .gnav-navi-1 a {
-  display: block;
+  display: inline-block;
   padding: 10px;
   background-color: #ff69b4;
   color: white;
@@ -35,7 +67,7 @@ h1 {
 
 button {
   background-color: rgb(255, 214, 142);
-  display: inline-flex;
+  display: inline-block;
   align-items: center;
   gap: 8px;
   padding: 12px;
