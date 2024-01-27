@@ -1,19 +1,87 @@
 <!DOCTYPE html>
-<html lang = "ja">
-    <title>初めての方へ</title>
-    <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="index.css" />
-    </head>
-    <body>
-        <main>
-            <h1>動物占いの簡単な使用例について説明します
-            </h1>
-            <h2></h2>
-            <p></p>
-            <a href="index.html">ホームへ</a>戻ります。</p>
-            <style></style>
-        </main>
-        <script src="index.js" defer=""></script>
-    </body>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>サイトマップ</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 100px;
+      }
+
+      h1 {
+        color: #333;
+      }
+
+      .team-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+      }
+
+      .team {
+        position: relative;
+        width: 400px;
+        padding: 10px;
+        border: 2px solid #333;
+        background-color: #f7f7f7;
+        text-align: center;
+      }
+
+      .team-title {
+        font-weight: bold;
+        color: #333;
+      }
+
+      .box {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #0066cc;
+        background-color: #cce5ff;
+        margin-top: 10px;
+      }
+
+      .line {
+        position: absolute;
+        width: 2px;
+        height: 100%;
+        background-color: #333;
+        top: 0;
+        left: 10%;
+        transform: translateX(-50%);
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>サイトマップ</h1>
+
+    <div class="team-container">
+      <div class="team">
+        <p class="team-title">人、経験、平和な人情型</p>
+        <div class="box">黒ひょう</div>
+        <div class="box">羊</div>
+        <div class="box">子鹿</div>
+        <div class="box">たぬき</div>
+        <div class="line"></div>
+      </div>
+
+      <div class="team">
+        <p class="team-title">メリットデメリット型</p>
+        <div class="box">猿</div>
+        <div class="box">コアラ</div>
+        <div class="box">狼</div>
+        <div class="box">虎</div>
+        <div class="line"></div>
+      </div>
+
+      <div class="team">
+        <p class="team-title">想像力豊かな感覚型</p>
+        <div class="box">チーター</div>
+        <div class="box">ゾウ</div>
+        <div class="box">ペガサス</div>
+        <div class="box">ライオン</div>
+      </div>
+    </div>
+  </body>
 </html>
