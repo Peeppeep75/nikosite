@@ -8,12 +8,8 @@ body {
   color: #383838;
   font-family: "Lato", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium",
     "YuGothic", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ",
-    "Meiryo", "ＭＳＰゴシック", "MS PGothic", sans-serif;
+    "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   line-height: 1.6;
-}
-
-body {
-  background-image: url("animals.jpg");
 }
 
 html {
@@ -88,3 +84,4 @@ button {
 button:hover {
   transform: scale(1.1);
 }
+

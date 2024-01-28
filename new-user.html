@@ -2,86 +2,77 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <title>サイトマップ</title>
+    <title>初めての方へs</title>
     <style>
       body {
-        font-family: Arial, sans-serif;
-        margin: 100px;
-      }
-
-      h1 {
-        color: #333;
-      }
-
-      .team-container {
         display: flex;
-        justify-content: space-between;
-        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
       }
 
-      .team {
+
+      .cross-container {
         position: relative;
         width: 400px;
-        padding: 10px;
-        border: 2px solid #333;
-        background-color: #f7f7f7;
-        text-align: center;
-      }
-
-      .team-title {
-        font-weight: bold;
-        color: #333;
+        height: 400px;
       }
 
       .box {
-        width: 100%;
-        padding: 10px;
-        border: 2px solid #0066cc;
-        background-color: #cce5ff;
-        margin-top: 10px;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: #3498db;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
       }
 
-      .line {
-        position: absolute;
-        width: 2px;
-        height: 100%;
-        background-color: #333;
+      .horizontal,
+      .vertical {
+        background-color: #e74c3c;
+      }
+
+      .box:nth-child(1) {
         top: 0;
-        left: 10%;
-        transform: translateX(-50%);
-        z-index: -1;
+        left: 150px;
+      }
+
+      .box:nth-child(2) {
+        top: 150px;
+        left: 0;
+      }
+
+      .box:nth-child(3) {
+        top: 150px;
+        left: 300px;
+      }
+
+      .box:nth-child(4) {
+        top: 300px;
+        left: 150px;
+      }
+
+      .box:nth-child(5) {
+        top: 150px;
+        left: 150px;
       }
     </style>
   </head>
   <body>
-    <h1>サイトマップ</h1>
-
-    <div class="team-container">
-      <div class="team">
-        <p class="team-title">人、経験、平和な人情型</p>
-        <div class="box">黒ひょう</div>
-        <div class="box">羊</div>
-        <div class="box">子鹿</div>
-        <div class="box">たぬき</div>
-        <div class="line"></div>
-      </div>
-
-      <div class="team">
-        <p class="team-title">メリットデメリット型</p>
-        <div class="box">猿</div>
-        <div class="box">コアラ</div>
-        <div class="box">狼</div>
-        <div class="box">虎</div>
-        <div class="line"></div>
-      </div>
-
-      <div class="team">
-        <p class="team-title">想像力豊かな感覚型</p>
-        <div class="box">チーター</div>
-        <div class="box">ゾウ</div>
-        <div class="box">ペガサス</div>
-        <div class="box">ライオン</div>
-      </div>
+    <div class="cross-container">
+      <div class="box horizontal">初対面10%</div>
+      <div class="box vertical">理想の自分10%</div>
+      <div class="box vertical">意思決定10%</div>
+      <div class="box horizontal">隠す自分20%</div>
+      <div class="box">主な自分50%</div>
+      
     </div>
+    <a href="index.html">ホームへ</a>戻ります。</p>
   </body>
 </html>
