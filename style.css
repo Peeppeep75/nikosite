@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f7f3e8;
+  font-family: "Sawarabi Gothic";
+  margin: 50px auto;
+  width: 70%;
+  padding: 50px;
+  text-align: center;
+}
+p {
+  padding: 10px;
+}
+
+button {
+  background-color: #f8aaf8;
+
+  color: #837360;
+  font-weight: 10;
+  font-size: 20px;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  margin: 50px;
+  position: relative;
+}
+
+button:hover {
+  background-color: #ffb560;
+}
+
+button span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* 他のCSSルール... */
+
+#ranking {
+  margin-top: 50px;
+}
+
+.ranking-list {
+  list-style: none;
+  padding: 0;
+}
+
+.ranking-item {
+  background-color: #f8aaf8;
+  color: #837360;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.ranking-item:nth-child(odd) {
+  background-color: #ffb560;
+}
