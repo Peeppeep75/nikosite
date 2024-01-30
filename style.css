@@ -21,7 +21,7 @@ button {
   background-color: #f8aaf8;
 
   color: #837360;
-  font-weight: 10;
+  font-weight: bold;
   font-size: 20px;
   width: 100px;
   height: 100px;
@@ -41,26 +41,16 @@ button span {
   transform: translate(-50%, -50%);
 }
 
-/* 他のCSSルール... */
-
-#ranking {
-  margin-top: 50px;
-}
-
-.ranking-list {
-  list-style: none;
-  padding: 0;
-}
-
-.ranking-item {
-  background-color: #f8aaf8;
-  color: #837360;
-  font-size: 18px;
+div.button-box {
+  border: 0.5px solid #7a3838;
   padding: 10px;
-  margin: 10px 0;
-  border-radius: 5px;
+  background-color: #ffdda6;
 }
 
-.ranking-item:nth-child(odd) {
-  background-color: #ffb560;
+div.container {
+  background-color: #ffdbff;
+  color: #837360;
+  padding: 0;
+  margin: 50px;
+  position: relative;
 }
