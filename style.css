@@ -18,7 +18,7 @@ p {
 }
 
 button {
-  background-color: #f8aaf8;
+  background-color: #ffb6e7;
 
   color: #837360;
   font-weight: bold;
@@ -48,9 +48,19 @@ div.button-box {
 }
 
 div.container {
-  background-color: #ffdbff;
+  background-color: #fed8fe;
   color: #837360;
+}
+.container button {
+  background-color: #f7f3e8;
+  color: #837360;
+  font-weight: bold;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
   padding: 0;
   margin: 50px;
   position: relative;
+  text-align: center; 
+  line-height: 50px;
 }
