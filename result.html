@@ -8,25 +8,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
+    <main>s
       <div class="container">
         <h2>占い結果</h2>
         <div id="result"></div>
       </div>
     </main>
     <script src="app.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        var resultDiv = document.getElementById("result");
-        var lifePathNumber = sessionStorage.getItem("lifePathNumber");
-
-        if (lifePathNumber) {
-          resultDiv.innerHTML =
-            "あなたのLife Path Numberは " + lifePathNumber + " です。";
-        } else {
-          resultDiv.innerHTML = "占い結果がありません。";
-        }
-      });
-    </script>
   </body>
 </html>
