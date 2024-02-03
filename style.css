@@ -64,3 +64,20 @@ div.container {
   text-align: center;
   line-height: 50px;
 }
+
+h1,
+h2 {
+  color: #e44d26;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+main {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

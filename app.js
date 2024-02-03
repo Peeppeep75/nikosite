@@ -1,2 +1,1 @@
-'use steict';
-
+"use steict";
