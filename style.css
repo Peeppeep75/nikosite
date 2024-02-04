@@ -81,3 +81,17 @@ main {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+a.return-link {
+  color: #e74c3c;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 8px 12px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+a.return-link:hover {
+  background-color: #e74c3c;
+  color: #fff;
+}
