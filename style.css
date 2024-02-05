@@ -13,13 +13,13 @@ body {
   padding: 50px;
   text-align: center;
 }
+
 p {
   padding: 10px;
 }
 
 button {
   background-color: #ffb6e7;
-
   color: #837360;
   font-weight: bold;
   font-size: 20px;
@@ -47,10 +47,6 @@ div.button-box {
   background-color: #ffdda6;
 }
 
-div.container {
-  background-color: #fed8fe;
-  color: #837360;
-}
 .container button {
   background-color: #f7f3e8;
   color: #837360;
@@ -75,6 +71,7 @@ h2 {
   font-size: 24px;
   margin-top: 10px;
 }
+
 main {
   background-color: #fff;
   padding: 20px;
@@ -94,4 +91,11 @@ a.return-link {
 a.return-link:hover {
   background-color: #e74c3c;
   color: #fff;
+}
+.container {
+  background-color: #ffcccc;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
 }

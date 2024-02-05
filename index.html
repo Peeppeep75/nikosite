@@ -1,66 +1,53 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <title>動物占い</title>
+  <title>初対面占い</title>
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
-      <img src="animals.jpg" alt="動物の絵" />
-      <div id="headline">
-        <h1>動物占い</h1>
-        <h2>❤️動物占いとは</h2>
-        <p>
-          生年月日から分かるその人の性格や運勢を、ライオン、チータ、ペガサス、
-        </p>
-        <p>ゾウ、猿、狼、子守熊、虎、黒ひょう、ひつじ、たぬき、こじか</p>
-        <p>の12の動物キャラに分類して分析したものです。</p>
-        <h2>❤️利用方法</h2>
-        <p>①生年月日から動物を検索</p>
-        <p>②検索結果の動物ボタンを押す</p>
-        <p>③詳しい内容を確認</p>
-        <p id="result"></p>
-      </div>
+      <img src="date.jpg" alt="食事デートの絵" />
+      <id="headline">
+        <h1>『初対面もう怖くない、５分でアプローチ方法がわかる』</h1>
+        <h2>❤️機能について</h2>
+          <p>生年月日から相手が嬉しい・嫌だと思うポイント</p>
+          <p>また相手への説明の順番方法など短時間で分析し、即活用できる占いです。</p>
+        <p>話す前に相手の考え方やとらえ方を知り、アプローチの方法を少し変えてみましょう。</p>
 
-      <div class="container">
-        <h2>❤️生年月日を入力してください</h2>
-        <br />
+        <p>最高な第一印象を与え、幅広くより良い人間関係を築いていきましょう。</p>
+
+          <h3>初デート</h3>
+          <p>自分の運命の相手かもしれません、一度目の機会を逃してはいけません</p>
+          <p>相手の好きなこと、ストレスを与えない話し方で好印象をゲット、スムーズに次回のデートへ繋げませんか？</p>
+          <p>さまざまな用途であなたを助け、第一印象で大きな自信がつくでしょう</p>
+        <p id="result"></p>
+
+      <div class="container"><br>
         <label for="birthdate">生年月日：</label>
         <input type="date" id="birthdate" />
-        <button>占う</button>
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="male">男</label>
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">女</label><br>
+          <label for="nickname">あだ名：</label>
+          <input type="text" id="nickname" /><br>
+        <button>性格をのぞいてみる</button>
+        </div>
+        
         <div id="result"></div>
       </div>
-      <br />
-      <div id="body line"></div>
-      <h2>❤️動物の種類</h2>
-      <br />
-      <div class="button-box">想像力豊かな感覚タイプ</div>
-      <a href="a1-about.html"><button>チーター</button></a>
-      <a href="a2-about.html"><button>ゾウ</button></a>
-      <a href="a3-about.html"><button>ペガサス</button></a>
-      <a href="a4-about.html"><button>ライオン</button></a>
-      <div class="button-box">メリットデメリット計算タイプ</div>
-      <a href="b1-about.html"><button>サル</button></a>
-      <a href="b2-about.html"><button>コアラ</button></a>
-      <a href="b3-about.html"><button>オオカミ</button></a>
-      <a href="b4-about.html"><button>トラ</button></a>
-      <div class="button-box">調和と平和の人間関係重視タイプ</div>
-      <a href="c1-about.html"><button>ヒョウ</button></a>
-      <a href="c2-about.html"><button>ヒツジ</button></a>
-      <a href="c3-about.html"><button>コジカ</button></a>
-      <a href="c4-about.html"><button>タヌキ</button></a>
-
-      <br /><br />
+      <br>
       <a href="index.html" class="return-link">TOP</a>
-      <br /><br />
     </main>
     <script src="app.js"></script>
   </body>
   <nav>
     <ul class="gnav-navi-1">
-      <li><a href="new-user.html">初めての方へ</a></li>
-      <li><a href="ranking.html">ランキング</a></li>
+      <li><a href="myroom.html">マイルーム</a></li>
+      <li><a href="ranking.html">話し方のアドバイス</a></li>
+      <li><a href="girlstype.html">女子タイプ一覧</a></li>
+      <li><a href="boystype.html">男子タイプ一覧</a></li>
       <li><a href="inquiry.html">お問い合わせ</a></li>
     </ul>
   </nav>
