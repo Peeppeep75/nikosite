@@ -17,13 +17,13 @@
 
         <div class="container">
           <label for="birthdate" >生年月日：</label>
-          <input type="date" id="birthdate" />
-          <input type="radio" id="male" name="gender" value="male" />
+          <input type="date" id="birthdate" min="1950-01-01" max="2024-02-07" required />
+          <input type="radio" id="male" name="gender" value="male" required/>
           <label for="male">男</label>
-          <input type="radio" id="female" name="gender" value="female" />
+          <input type="radio" id="female" name="gender" value="female" required/>
           <label for="female">女</label><br>
           <label for="nickname">あだ名：</label>
-          <input type="text" id="nickname" /><br>
+          <input type="text" id="nickname" size ='20'><br>
           <button id="checkPersonality">性格をのぞいてみる</button>
       </div>
         <h3>例えば・・・気になる相手との初デート</h3>

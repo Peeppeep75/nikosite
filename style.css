@@ -126,3 +126,8 @@ input[type="radio"] {
 .gnav-navi-1 a:hover {
   color: #e74c3c;
 }
+
+input[type="date"] {
+  padding: 5px;
+  text-align: center;
+}
